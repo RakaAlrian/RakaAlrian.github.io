@@ -1,1 +1,9 @@
-{}
+[{
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "id.co.superindo.mysuperindo.staging",
+      "sha256_cert_fingerprints":
+      ["99:24:BD:D1:8E:8C:88:34:64:AE:BB:03:FF:7B:0D:D7:C2:56:31:B6:49:CC:AA:7C:86:D6:80:D7:CC:C2:04:22"]
+    }
+  }]
