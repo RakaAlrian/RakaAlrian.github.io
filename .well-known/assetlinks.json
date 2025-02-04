@@ -4,6 +4,9 @@
       "namespace": "android_app",
       "package_name": "id.co.superindo.mysuperindo.staging",
       "sha256_cert_fingerprints":
-      ["99:24:BD:D1:8E:8C:88:34:64:AE:BB:03:FF:7B:0D:D7:C2:56:31:B6:49:CC:AA:7C:86:D6:80:D7:CC:C2:04:22"]
+      [
+        "99:24:BD:D1:8E:8C:88:34:64:AE:BB:03:FF:7B:0D:D7:C2:56:31:B6:49:CC:AA:7C:86:D6:80:D7:CC:C2:04:22",
+        "F2:C5:06:83:8B:FD:09:78:23:50:6D:EE:8A:0F:C2:08:6F:5C:32:71:48:84:CE:F2:E1:26:9C:0B:89:8B:75:B7"
+      ]
     }
   }]
