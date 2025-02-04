@@ -1,1 +1,25 @@
-{}
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": [
+          "Y3C9KL893S.id.co.superindo.mysuperindo.staging"
+        ],
+        "paths": [
+          "*"
+        ],
+        "components": [
+          {
+            "/": "/*"
+          }
+        ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "Y3C9KL893S.id.co.superindo.mysuperindo.staging"
+    ]
+  }
+}
