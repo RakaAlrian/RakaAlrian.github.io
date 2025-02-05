@@ -9,20 +9,6 @@
             var userAgent = navigator.userAgent.toLowerCase();
 
             if (userAgent.includes("android")) {
-                // Redirect ke Google Play Store
-                window.location.href = "https://play.google.com/store/apps/details?id=id.co.superindo.mysuperindo";
-            } else if (userAgent.includes("iphone") || userAgent.includes("ipad") || userAgent.includes("ipod")) {
-                // Redirect ke Apple App Store
-                window.location.href = "https://apps.apple.com/id/app/my-super-indo/id1499936127";
-            } else {
-                // Jika bukan Android atau iOS, tampilkan gambar
-                document.getElementById("not-mobile").style.display = "block";
-            }
-        });
-        document.addEventListener("DOMContentLoaded", function () {
-            var userAgent = navigator.userAgent.toLowerCase();
-
-            if (userAgent.includes("android")) {
                 window.location.href = "intent://play.google.com/store/apps/details?id=id.co.superindo.mysuperindo#Intent;scheme=https;package=com.android.vending;end;";
                 setTimeout(function () {
                     window.location.href = "https://play.google.com/store/apps/details?id=id.co.superindo.mysuperindo";
