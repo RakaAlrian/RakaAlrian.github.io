@@ -19,6 +19,20 @@
                 document.getElementById("not-mobile").style.display = "block";
             }
         });
+        document.addEventListener("DOMContentLoaded", function () {
+            var userAgent = navigator.userAgent.toLowerCase();
+
+            if (userAgent.includes("android")) {
+                window.location.href = "intent://play.google.com/store/apps/details?id=id.co.superindo.mysuperindo#Intent;scheme=https;package=com.android.vending;end;";
+                setTimeout(function () {
+                    window.location.href = "https://play.google.com/store/apps/details?id=id.co.superindo.mysuperindo";
+                }, 2000);
+            } else if (/iphone|ipad|ipod/i.test(userAgent)) {
+                window.location.href = "itms-apps://apps.apple.com/app/id1499936127";
+            } else {
+                document.getElementById("not-mobile").style.display = "block";
+            }
+        });
     </script>
     <style>
         body {
