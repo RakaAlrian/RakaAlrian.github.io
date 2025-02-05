@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Link MSI</title>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var userAgent = navigator.userAgent.toLowerCase();
+
+            if (userAgent.includes("android")) {
+                window.location.href = "intent://play.google.com/store/apps/details?id=id.co.superindo.mysuperindo#Intent;scheme=https;package=com.android.vending;end;";
+                setTimeout(function () {
+                    window.location.href = "https://play.google.com/store/apps/details?id=id.co.superindo.mysuperindo";
+                }, 2000);
+            } else if (userAgent.includes("iphone") || userAgent.includes("ipad") || userAgent.includes("ipod")) {
+                window.location.href = "https://apps.apple.com/id/app/my-super-indo/id1499936127";
+            } else {
+                document.getElementById("not-mobile").style.display = "block";
+            }
+        });
+    </script>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        #not-mobile {
+            display: none;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Deep Link MSI</h1>
+    <div id="not-mobile">
+        <img src="banner_download_msi.jpg" alt="Download MSI" width="1245" height="560">
+    </div>
+</body>
+</html>
