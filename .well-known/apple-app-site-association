@@ -4,8 +4,9 @@
     "details": [
       {
         "appIDs": [
-          "Y3C9KL893S.id.co.superindo.mysuperindo.qa",
-          "Y3C9KL893S.id.co.superindo.mysuperindo"
+          "Y3C9KL893S.id.co.superindo.mysuperindo.staging",
+          "Y3C9KL893S.id.co.superindo.mysuperindo",
+          "Y3C9KL893S.id.co.superindo.mysuperindo.qa"
         ],
         "paths": [
           "*"
@@ -20,8 +21,9 @@
   },
   "webcredentials": {
     "apps": [
-      "Y3C9KL893S.id.co.superindo.mysuperindo.qa",
-      "Y3C9KL893S.id.co.superindo.mysuperindo"
+      "Y3C9KL893S.id.co.superindo.mysuperindo.staging",
+      "Y3C9KL893S.id.co.superindo.mysuperindo",
+      "Y3C9KL893S.id.co.superindo.mysuperindo.qa"
     ]
   }
 }
